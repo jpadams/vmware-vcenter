@@ -48,7 +48,7 @@ class vcenter::package (
   } ->
 
   package { 'rbvmomi':
-    ensure   => '1.6.0.z1',
+    ensure   => '1.8.1',
     source   => '/opt/staging/vcenter/rbvmomi.gem',
     provider => $::vcenter::params::provider,
   }
